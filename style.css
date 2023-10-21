@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Plus Jakarta Sans';
+    background: var(--grey);
+}
+:root{
+    --purple: #666CA3;
+    --black: #13183F ;
+    --lgrey: #83869A;
+    --pink: #F74780;
+    --lpink: #FFA7C3;
+    --grey: #FFF;
+    --ranbow: var(--13183F, #13183F);
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px 50px 16px;
+    column-gap: 90px;
+    
+    
+
+}
+
+h1{
+ margin-top: 22px ;
+ color: var(--black);
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.button1{
+ background-color: var(--black);
+color: var(--grey);
+margin-top: 16px;
+width: 140px;
+height: 48px;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; 
+border-radius: 28px;
+border: none;
+
+}
+.button1:hover{
+    background-color: red;
+     transition: 2s;
+}
+
+.boss{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.textholder{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    margin-left: 16px;
+    row-gap: 25px;
+}
+
+h2{
+   
+    width: 343px;
+    color: var(--black);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h3{
+    
+    width: 343px;
+    color: var(--lgrey);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.button2{
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    color: var(--grey);
+    width: 167px;
+    height: 56px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+.button2:hover{
+    background-color: brown;
+     transition: 2s;
+}
+
+.gogona2{
+    display: none;
+}
+
+.gogona3{
+    display: none;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+h4{
+    width: 286px;
+    color: var(--grey);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.box1{
+    width: 343px;
+    height: 120px;
+    border-radius: 9px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    padding: 25px 29px 32px 29px;
+}
+
+
+.info1{
+    width: 343px;
+    height: 259px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    text-align: left;
+    align-items: start;
+    padding-left: 28px;
+}
+
+.info1 img{
+    margin-left: 0px;
+    margin-top: -30px;
+}
+
+h5{
+    margin-top: 24px;
+    color: var(--black);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+h6{
+    margin-top: 16px;
+    width: 286px;
+    color: var(--lgrey);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+p{
+    margin-top: 26px;
+    color: var(--pink);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    column-gap: 114px;
+    height: 120px;
+    background: var(--black);
+}
+.footertext{
+margin-top: 40px;
+color: var(--grey);
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.button3{
+    margin-top: 36px;
+    border: none;
+    width: 140px;
+    height: 48px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+    border-radius: 28px;
+    color: var(--grey);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.button3:hover{
+    background-color: aqua;
+    transition: 2s;
+
+
+}
